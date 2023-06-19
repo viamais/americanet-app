@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="./css/plugins.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>Americanet</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"
+		></script>
+	</head>
+
+	<body>
+		<div class="wrapper login">
+			<section class="s-login-intro">
+				<img
+					src="img/logo-indicacao-valiosa.png"
+					alt="Logo da indicação da valiosa"
+				/>
+				<img src="img/logo-americanet-white.svg" alt="Logo da Americanet" />
+			</section>
+
+			<form action="">
+				<div class="container">
+					<div class="form-group">
+						<div class="input login">
+							<input
+								type="text"
+								name="user"
+								id="user"
+								placeholder="Usuário"
+								value=""
+							/>
+						</div>
+						<div class="input login">
+							<input
+								type="password"
+								name="password"
+								id="password"
+								placeholder="Senha"
+								value=""
+							/>
+							<iconify-icon
+								class="icon accessibility-color"
+								icon="carbon:accessibility-color"
+							></iconify-icon>
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="input-group-switch start">
+						<label class="switch">
+							<input type="checkbox" id="switchCep" />
+							<span class="slider round"></span>
+						</label>
+						<label for="switchCep">Lembrar de mim</label>
+					</div>
+				</div>
+
+				<div class="container">
+					<a href="home.html" class="btn laranja">Login</a>
+				</div>
+			</form>
+		</div>
+		<script src="js/plugins.js"></script>
+		<script src="js/all.js"></script>
+	</body>
+</html>

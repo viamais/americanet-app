@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="./css/plugins.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>Americanet</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"
+		></script>
+	</head>
+
+	<body>
+		<div class="wrapper home">
+			<header class="secondary">
+				<div class="container">
+					<div class="header__content">
+						<div class="header__group">
+							<iconify-icon
+								class="icon-left arrow-left"
+								icon="carbon:arrow-left"
+							></iconify-icon>
+							<span> Notificações </span>
+						</div>
+
+						<iconify-icon
+							class="icon-right help"
+							icon="carbon:help"
+						></iconify-icon>
+					</div>
+				</div>
+			</header>
+
+			<main class="overflow-auto bg-gray vh-100">
+				<div class="container">
+					<ul class="notication-list mt-10 flex-column-20">
+						<li class="notification__item">
+							<p class="notification__data">Há 3 dias</p>
+							<div class="notification__content">
+								<h2>Indicação cancelada</h2>
+								<p>
+									A indicação de Mário Nanquim foi cancelada. Nenhum recompensa
+									foi gerada.
+								</p>
+							</div>
+						</li>
+						<li class="notification__item">
+							<p class="notification__data">Há 3 dias</p>
+							<div class="notification__content">
+								<h2>Indicação cancelada</h2>
+								<p>
+									A indicação de Mário Nanquim foi cancelada. Nenhum recompensa
+									foi gerada.
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</main>
+
+			<nav class="nav-main none">
+				<ul>
+					<li class="nav-main__item">
+						<iconify-icon class="icon" icon="carbon:home"></iconify-icon>
+						<p>Home</p>
+					</li>
+					<li class="nav-main__item">
+						<iconify-icon class="icon" icon="carbon:time"></iconify-icon>
+						<p>Histórico</p>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<script src="js/plugins.js"></script>
+		<script src="js/all.js"></script>
+	</body>
+</html>

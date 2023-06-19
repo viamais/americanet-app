@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="./css/plugins.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>Americanet</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"
+		></script>
+	</head>
+
+	<body>
+		<div class="wrapper home">
+			<header class="main">
+				<div class="container">
+					<div class="header__content">
+						<iconify-icon
+							class="icon-left notification"
+							icon="carbon:notification"
+						></iconify-icon>
+						<img
+							src="img/logo-americanet-default.svg"
+							alt="Logo da Americanet"
+						/>
+						<iconify-icon
+							class="icon-right logout"
+							icon="carbon:logout"
+						></iconify-icon>
+					</div>
+				</div>
+			</header>
+
+			<main class="overflow-auto bg-gray">
+				<section class="home-s-intro">
+					<h1>Bom dia, Paulo</h1>
+
+					<p>Você tem 3 indicações em aberto</p>
+				</section>
+
+				<section class="home-s-begin">
+					<div class="container">
+						<h2>Vamos começar</h2>
+						<ul class="home-s-begin__list grid-1-3">
+							<li class="quick-cards">
+								<a href="#">
+									<img src="img/logo-americanet-mini.svg" alt="" />
+									<p>Quero indicar</p>
+								</a>
+							</li>
+							<li class="quick-cards">
+								<a href="#">
+									<img src="img/emoji-recompensa.svg" alt="" />
+									<p>Minhas Recompensas</p>
+								</a>
+							</li>
+							<li class="quick-cards">
+								<a href="#">
+									<img src="img/emoji-historico.svg" alt="" />
+									<p>Histórico</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="home-s-last bg-gray">
+					<div class="container">
+						<h2 class="h2-title">Últimas indicações</h2>
+
+						<p class="p-subtitle">Indicações feitas nos últimos 7 dias</p>
+
+						<ul class="home-s-last__list flex-column-gap-8">
+							<li>
+								<a
+									class="card-indicacoes"
+									href="#
+								"
+								>
+									<div class="card-indicacoes__text">
+										<p class="card-indicacoes__text__name">José da Silva</p>
+										<p class="card-indicacoes__text__phone">(62) *****-9999</p>
+									</div>
+									<div class="card-indicacoes__status pendente">
+										<div class="card-indicacoes__icon"></div>
+										<p class="card-indicacoes__status__text">Pendente</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a
+									class="card-indicacoes"
+									href="#
+								"
+								>
+									<div class="card-indicacoes__text">
+										<p class="card-indicacoes__text__name">José da Silva</p>
+										<p class="card-indicacoes__text__phone">(62) *****-9999</p>
+									</div>
+									<div class="card-indicacoes__status cancelado">
+										<div class="card-indicacoes__icon"></div>
+										<p class="card-indicacoes__status__text">Cancelado</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a
+									class="card-indicacoes"
+									href="#
+								"
+								>
+									<div class="card-indicacoes__text">
+										<p class="card-indicacoes__text__name">José da Silva</p>
+										<p class="card-indicacoes__text__phone">(62) *****-9999</p>
+									</div>
+									<div class="card-indicacoes__status pago">
+										<div class="card-indicacoes__icon"></div>
+										<p class="card-indicacoes__status__text">Pago</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</main>
+
+			<nav class="nav-main">
+				<ul>
+					<li class="nav-main__item">
+						<iconify-icon class="icon" icon="carbon:home"></iconify-icon>
+						<p>Home</p>
+					</li>
+					<li class="nav-main__item">
+						<iconify-icon class="icon" icon="carbon:time"></iconify-icon>
+						<p>Histórico</p>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<script src="js/plugins.js"></script>
+		<script src="js/all.js"></script>
+	</body>
+</html>

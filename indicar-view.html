@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="./css/plugins.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>Americanet</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"
+		></script>
+	</head>
+
+	<body>
+		<div class="wrapper home">
+			<header class="secondary">
+				<div class="container">
+					<div class="header__content">
+						<div class="header__group">
+							<iconify-icon
+								class="icon-left arrow-left"
+								icon="carbon:arrow-left"
+							></iconify-icon>
+							<span> Visualizar indicação </span>
+						</div>
+
+						<iconify-icon
+							class="icon-right help"
+							icon="carbon:help"
+						></iconify-icon>
+					</div>
+				</div>
+			</header>
+
+			<main class="overflow-auto bg-gray">
+				<form action="">
+					<div class="container flex-column-20">
+						<p class="p-default mt-10">Veja os detalhes de sua indicação.</p>
+						<div class="indicar__status cancelado">
+							<div class="icon"></div>
+							<h2>Sua indicação está pendente</h2>
+							<p>
+								Isso significa que ela ainda está sendo processada pela equipe
+								de vendas. Por favor aguarde.
+							</p>
+						</div>
+						<!-- input de nome -->
+						<div class="input-group">
+							<label class="p-default" for="name">Nome completo</label>
+							<input
+								class="input default"
+								type="text"
+								name="name"
+								id="name"
+								placeholder="Digite seu nome completo"
+								value="Maria Andressa"
+							/>
+						</div>
+						<!-- input de telefone 1 -->
+						<div class="input-group">
+							<label class="p-default" for="phone">Telefone 1</label>
+							<input
+								class="input default"
+								type="text"
+								name="phone"
+								id="phone"
+								placeholder="Digite seu telefone"
+							/>
+							<div class="input-group-checkbox">
+								<label class="p-default">
+									<input
+										type="checkbox"
+										name="number-address"
+										value="no-number"
+									/>
+									<p>Esse número é WhatsApp</p>
+								</label>
+							</div>
+						</div>
+
+						<!-- input de telefone 2 -->
+						<div class="input-group">
+							<label class="p-default" for="phone2">Telefone 2</label>
+							<input
+								class="input default"
+								type="text"
+								name="phone2"
+								id="phone2"
+								placeholder="Digite seu telefone"
+							/>
+							<div class="input-group-checkbox">
+								<label class="p-default">
+									<input
+										type="checkbox"
+										name="number-address"
+										value="no-number"
+									/>
+									<p>Esse número é WhatsApp</p>
+								</label>
+							</div>
+						</div>
+
+						<!-- INPUT DE OBSERVAÇÕES-->
+						<div class="input-group">
+							<label class="p-default" for="obs">Observações</label>
+							<textarea
+								name="obs"
+								id="obs"
+								cols="30"
+								rows="10"
+								placeholder="Digite sua observação"
+							>
+Escreva detalhes da indicação aqui</textarea
+							>
+						</div>
+						<p class="p-default mt-10">
+							Indicação enviada em 11/05/2023 às 18:52.
+						</p>
+					</div>
+				</form>
+			</main>
+
+			<nav class="nav-main none">
+				<ul>
+					<li class="nav-main__item">
+						<iconify-icon class="icon" icon="carbon:home"></iconify-icon>
+						<p>Home</p>
+					</li>
+					<li class="nav-main__item">
+						<iconify-icon class="icon" icon="carbon:time"></iconify-icon>
+						<p>Histórico</p>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<script src="js/plugins.js"></script>
+		<script src="js/all.js"></script>
+	</body>
+</html>

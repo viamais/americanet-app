@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="./css/plugins.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>Americanet</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"
+		></script>
+	</head>
+
+	<body>
+		<div class="wrapper home">
+			<header class="secondary">
+				<div class="container">
+					<div class="header__content">
+						<div class="header__group">
+							<iconify-icon
+								class="icon-left arrow-left"
+								icon="carbon:arrow-left"
+							></iconify-icon>
+							<span> Histórico </span>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<main class="overflow-auto bg-gray">
+				<section class="home-s-last bg-gray">
+					<div class="container">
+						<p class="p-subtitle">
+							Use as opções abaixo para filtrar as indicações que você fez.
+						</p>
+
+						<ul class="primary-filters__list mb-20">
+							<li class="primary-filters__item">
+								<button type="button">
+									<iconify-icon
+										class="icon progress-bar-round"
+										icon="carbon:progress-bar-round"
+									></iconify-icon>
+									<p>Status</p>
+								</button>
+							</li>
+							<li class="primary-filters__item">
+								<button type="button">
+									<iconify-icon
+										class="icon menu"
+										icon="carbon:menu"
+									></iconify-icon>
+									<p>Data</p>
+								</button>
+							</li>
+						</ul>
+
+						<ul class="tag-filters__list status">
+							<li class="tag-filters__item">
+								<button type="button">
+									<iconify-icon
+										class="icon close"
+										icon="carbon:close"
+									></iconify-icon>
+									<p>Cancelado</p>
+								</button>
+							</li>
+							<li class="tag-filters__item">
+								<button type="button">
+									<iconify-icon
+										class="icon hourglass"
+										icon="carbon:hourglass"
+									></iconify-icon>
+									<p>Pendente</p>
+								</button>
+							</li>
+							<li class="tag-filters__item">
+								<button type="button">
+									<iconify-icon
+										class="icon checkmark"
+										icon="carbon:checkmark"
+									></iconify-icon>
+									<p>Aprovado</p>
+								</button>
+							</li>
+							<li class="tag-filters__item">
+								<button type="button">
+									<iconify-icon
+										class="icon link"
+										icon="carbon:link"
+									></iconify-icon>
+									<p>Instalado</p>
+								</button>
+							</li>
+							<li class="tag-filters__item">
+								<button type="button">
+									<iconify-icon
+										class="icon currency-dollar"
+										icon="carbon:currency-dollar"
+									></iconify-icon>
+									<p>Pago</p>
+								</button>
+							</li>
+						</ul>
+						<ul class="tag-filters__list data">
+							<li class="tag-filters__item">
+								<button type="button">
+									<iconify-icon
+										class="icon time"
+										icon="carbon:time"
+									></iconify-icon>
+									<p>Há 7 dias</p>
+								</button>
+							</li>
+							<li class="tag-filters__item">
+								<button type="button">
+									<iconify-icon
+										class="icon time"
+										icon="carbon:time"
+									></iconify-icon>
+									<p>Há 15 dias</p>
+								</button>
+							</li>
+							<li class="tag-filters__item">
+								<button type="button">
+									<iconify-icon
+										class="icon time"
+										icon="carbon:time"
+									></iconify-icon>
+									<p>Há 30 dias</p>
+								</button>
+							</li>
+						</ul>
+
+						<ul class="home-s-last__list flex-column-gap-8">
+							<li>
+								<a
+									class="card-indicacoes"
+									href="#
+								"
+								>
+									<div class="card-indicacoes__text">
+										<p class="card-indicacoes__text__name">José da Silva</p>
+										<p class="card-indicacoes__text__phone">(62) *****-9999</p>
+									</div>
+									<div class="card-indicacoes__status pendente">
+										<div class="card-indicacoes__icon"></div>
+										<p class="card-indicacoes__status__text">Pendente</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a
+									class="card-indicacoes"
+									href="#
+								"
+								>
+									<div class="card-indicacoes__text">
+										<p class="card-indicacoes__text__name">José da Silva</p>
+										<p class="card-indicacoes__text__phone">(62) *****-9999</p>
+									</div>
+									<div class="card-indicacoes__status cancelado">
+										<div class="card-indicacoes__icon"></div>
+										<p class="card-indicacoes__status__text">Cancelado</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a
+									class="card-indicacoes"
+									href="#
+								"
+								>
+									<div class="card-indicacoes__text">
+										<p class="card-indicacoes__text__name">José da Silva</p>
+										<p class="card-indicacoes__text__phone">(62) *****-9999</p>
+									</div>
+									<div class="card-indicacoes__status pago">
+										<div class="card-indicacoes__icon"></div>
+										<p class="card-indicacoes__status__text">Pago</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a
+									class="card-indicacoes"
+									href="#
+								"
+								>
+									<div class="card-indicacoes__text">
+										<p class="card-indicacoes__text__name">José da Silva</p>
+										<p class="card-indicacoes__text__phone">(62) *****-9999</p>
+									</div>
+									<div class="card-indicacoes__status pendente">
+										<div class="card-indicacoes__icon"></div>
+										<p class="card-indicacoes__status__text">Pendente</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a
+									class="card-indicacoes"
+									href="#
+								"
+								>
+									<div class="card-indicacoes__text">
+										<p class="card-indicacoes__text__name">José da Silva</p>
+										<p class="card-indicacoes__text__phone">(62) *****-9999</p>
+									</div>
+									<div class="card-indicacoes__status cancelado">
+										<div class="card-indicacoes__icon"></div>
+										<p class="card-indicacoes__status__text">Cancelado</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a
+									class="card-indicacoes"
+									href="#
+								"
+								>
+									<div class="card-indicacoes__text">
+										<p class="card-indicacoes__text__name">José da Silva</p>
+										<p class="card-indicacoes__text__phone">(62) *****-9999</p>
+									</div>
+									<div class="card-indicacoes__status pago">
+										<div class="card-indicacoes__icon"></div>
+										<p class="card-indicacoes__status__text">Pago</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a
+									class="card-indicacoes"
+									href="#
+								"
+								>
+									<div class="card-indicacoes__text">
+										<p class="card-indicacoes__text__name">José da Silva</p>
+										<p class="card-indicacoes__text__phone">(62) *****-9999</p>
+									</div>
+									<div class="card-indicacoes__status pendente">
+										<div class="card-indicacoes__icon"></div>
+										<p class="card-indicacoes__status__text">Pendente</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a
+									class="card-indicacoes"
+									href="#
+								"
+								>
+									<div class="card-indicacoes__text">
+										<p class="card-indicacoes__text__name">José da Silva</p>
+										<p class="card-indicacoes__text__phone">(62) *****-9999</p>
+									</div>
+									<div class="card-indicacoes__status cancelado">
+										<div class="card-indicacoes__icon"></div>
+										<p class="card-indicacoes__status__text">Cancelado</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a
+									class="card-indicacoes"
+									href="#
+								"
+								>
+									<div class="card-indicacoes__text">
+										<p class="card-indicacoes__text__name">José da Silva</p>
+										<p class="card-indicacoes__text__phone">(62) *****-9999</p>
+									</div>
+									<div class="card-indicacoes__status pago">
+										<div class="card-indicacoes__icon"></div>
+										<p class="card-indicacoes__status__text">Pago</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</main>
+
+			<nav class="nav-main">
+				<ul>
+					<li class="nav-main__item">
+						<iconify-icon class="icon" icon="carbon:home"></iconify-icon>
+						<p>Home</p>
+					</li>
+					<li class="nav-main__item">
+						<iconify-icon class="icon" icon="carbon:time"></iconify-icon>
+						<p>Histórico</p>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<script>
+			$(document).ready(function () {
+				// Esconde as listas inicialmente
+				$('.tag-filters__list').hide();
+
+				$('.primary-filters__item button').click(function () {
+					var filterText = $(this).find('p').text();
+
+					// Remover a classe active dos itens que já estavam ativos
+					$('.primary-filters__item').removeClass('active');
+					$('.tag-filters__list').hide();
+
+					// Adicionar a classe active ao item clicado
+					$(this).closest('.primary-filters__item').addClass('active');
+
+					if (filterText == 'Status') {
+						$('.tag-filters__list.status').show();
+					} else if (filterText == 'Data') {
+						$('.tag-filters__list.data').show();
+					}
+				});
+
+				$('.tag-filters__item button').click(function () {
+					// Para cada ul, removemos a classe active de todos os itens antes de adicionar ao clicado
+					$(this)
+						.closest('ul')
+						.find('.tag-filters__item')
+						.removeClass('active');
+
+					// Adiciona a classe active ao item clicado
+					$(this).closest('.tag-filters__item').addClass('active');
+				});
+			});
+		</script>
+		<script src="js/plugins.js"></script>
+		<script src="js/all.js"></script>
+	</body>
+</html>
